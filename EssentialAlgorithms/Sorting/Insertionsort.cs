@@ -16,18 +16,10 @@ namespace EssentialAlgorithms.Sorting
                 {
                     if (j < i && array[j] > array[i])
                     {
-                        MoveWithinArray(array, i, j);
+                        Arrays.ArrayAlgorithms.MoveWithinArray(array, i, j);
                     }
                 }
             }
-        }
-
-
-        static void MoveWithinArray(Array array, int source, int dest)
-        {
-            object temp = array.GetValue(source);
-            Array.Copy(array, dest, array, dest + 1, source - dest);
-            array.SetValue(temp, dest);
         }
     }
 }

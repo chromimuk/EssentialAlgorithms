@@ -58,5 +58,13 @@ namespace EssentialAlgorithms.Arrays
             }
             array[pos] = value;
         }
+
+        public static void MoveWithinArray(Array array, int source, int dest)
+        {
+            object temp = array.GetValue(source);
+            Array.Copy(array, dest, array, dest + 1, source - dest);
+            array.SetValue(temp, dest);
+        }
+
     }
 }

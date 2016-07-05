@@ -25,15 +25,8 @@ namespace EssentialAlgorithms.Sorting
                 }
 
                 if (posMinimum != i)
-                    MoveWithinArray(array, posMinimum, i);
+                    Arrays.ArrayAlgorithms.MoveWithinArray(array, posMinimum, i);
             }
-        }
-
-        static void MoveWithinArray(Array array, int source, int dest)
-        {
-            object temp = array.GetValue(source);
-            Array.Copy(array, dest, array, dest + 1, source - dest);
-            array.SetValue(temp, dest);
         }
     }
 }
