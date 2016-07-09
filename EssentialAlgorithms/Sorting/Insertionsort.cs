@@ -4,7 +4,7 @@ namespace EssentialAlgorithms.Sorting
 {
     static class Insertionsort
     {
-        public static void InsertionSort(int[] array)
+        public static void Sort(int[] array)
         {
             for (int i = 0; i < array.Length; i++)
             {

@@ -52,6 +52,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LinkedLists\SinglyLinkedList.cs" />
+    <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Searching\InterpolationSearch.cs" />
+    <Compile Include="Searching\LinearSearch.cs" />
+    <Compile Include="Searching\_Testing.cs" />
     <Compile Include="Sorting\Bubblesort.cs" />
     <Compile Include="Sorting\Countingsort.cs" />
     <Compile Include="Sorting\Heapsort.cs" />

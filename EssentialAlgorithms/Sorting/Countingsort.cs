@@ -7,7 +7,7 @@ namespace EssentialAlgorithms.Sorting
 {
     class Countingsort
     {
-        public static void CountingSort(int[] array)
+        public static void Sort(int[] array)
         {
             int maxValue = Arrays.ArrayAlgorithms.FindMaximum(array);
             int[] counts = new int[maxValue + 1];

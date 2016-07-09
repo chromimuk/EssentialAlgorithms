@@ -2,7 +2,7 @@
 {
     static class Quicksort
     {
-        public static void QuickSort(int[] array, int start, int end)
+        public static void Sort(int[] array, int start, int end)
         {
             if (start >= end)
                 return;
@@ -56,8 +56,8 @@
                 array[hi] = array[lo];
             }
 
-            QuickSort(array, start, lo - 1);
-            QuickSort(array, lo + 1, end);
+            Sort(array, start, lo - 1);
+            Sort(array, lo + 1, end);
         }
 
     }

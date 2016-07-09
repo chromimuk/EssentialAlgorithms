@@ -5,37 +5,37 @@
         public static void Test()
         {
             int[] array = InitArray();
-            Insertionsort.InsertionSort(array);
+            Insertionsort.Sort(array);
             System.Diagnostics.Debug.WriteLine("Insertionsort: " + string.Join(" ", array));
 
 
             array = InitArray();
-            Selectionsort.SelectionSort(array);
+            Selectionsort.Sort(array);
             System.Diagnostics.Debug.WriteLine("Selectionsort: " + string.Join(" ", array));
 
 
             array = InitArray();
-            Bubblesort.BubbleSort(array);
+            Bubblesort.Sort(array);
             System.Diagnostics.Debug.WriteLine("Bubblesort: " + string.Join(" ", array));
 
 
             array = InitArray();
-            Heapsort.HeapSort(array);
+            Heapsort.Sort(array);
             System.Diagnostics.Debug.WriteLine("Heapsort: " + string.Join(" ", array));
 
 
             array = InitArray();
-            Quicksort.QuickSort(array, 0, array.Length - 1);
+            Quicksort.Sort(array, 0, array.Length - 1);
             System.Diagnostics.Debug.WriteLine("Quicksort: " + string.Join(" ", array));
 
 
             array = InitArray();
             int[] scratch = new int[array.Length];
-            Mergesort.MergeSort(array, scratch, 0, array.Length - 1);
+            Mergesort.Sort(array, scratch, 0, array.Length - 1);
             System.Diagnostics.Debug.WriteLine("Mergesort: " + string.Join(" ", array));
 
             array = InitArray();
-            Countingsort.CountingSort(array);
+            Countingsort.Sort(array);
             System.Diagnostics.Debug.WriteLine("Countingsort: " + string.Join(" ", array));
         }
 

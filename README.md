@@ -31,3 +31,8 @@
 - Quicksort
 - Mergesort
 - Countingsort
+
+## Searching
+- Linear Search
+- Binary Search
+- Interpolation Search

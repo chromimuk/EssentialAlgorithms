@@ -2,7 +2,7 @@
 {
     class Heapsort
     {
-        public static void HeapSort(int[] array)
+        public static void Sort(int[] array)
         {
             IntegerTree tree = new IntegerTree(array);
             tree.MakeHeap();

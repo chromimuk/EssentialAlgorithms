@@ -2,15 +2,15 @@
 {
     static class Mergesort
     {
-        public static void MergeSort(int[] array, int[] scratch, int start, int end)
+        public static void Sort(int[] array, int[] scratch, int start, int end)
         {
             if (start == end)
                 return;
 
             int midPoint = (start + end) / 2;
 
-            MergeSort(array, scratch, start, midPoint);
-            MergeSort(array, scratch, midPoint + 1, end);
+            Sort(array, scratch, start, midPoint);
+            Sort(array, scratch, midPoint + 1, end);
 
 
             // Merge the two sorted halves

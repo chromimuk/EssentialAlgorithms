@@ -2,7 +2,7 @@
 {
     static class Bubblesort
     {
-        public static void BubbleSort(int[] array)
+        public static void Sort(int[] array)
         {
             bool isSorted = false;
 
